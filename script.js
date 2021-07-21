@@ -13,7 +13,7 @@ var temp = document.querySelector('.temp');
 
 
 button.addEventListener('click',function(){
-    fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputValue.value+'&appid=8493b22548e64a9d9ddf5977b11abe02&units=imperial')
+    fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputValue.value+'&apiKey=381c4db0624d4f8aa744cb4ea27afaf1&includeNutrition=true')
 .then(response => response.json())
 .then(data => {
     var nameValue = data['name'];
@@ -28,4 +28,5 @@ button.addEventListener('click',function(){
 
 .catch(err => alert("Wrong city name!"))
 })
+
 
