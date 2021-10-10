@@ -112,29 +112,3 @@ function handleSearchFormSubmit(event) {
 searchFormEl.addEventListener("submit", handleSearchFormSubmit);
 
 getParams();
-// const searchBtn = document.querySelector('#search-button')
-// const APIkey = "8493b22548e64a9d9ddf5977b11abe02";
-
-// function searchCity(event) {
-//   event.preventDefault();
-
-//   var city = document.querySelector('#search-input').value;
-//   var APIKey = document.querySelector('#format-input').value;
-
-//   if (!searchInputVal) {
-//     console.error('You need a search input value!');
-//     return;
-//   }
-
-//   var queryURL = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + APIKey;
-
-//   location.assign(queryString);
-// }
-
-// searchFormEl.addEventListener('submit', handleSearchFormSubmit);
-
-// const city;
-
-// const queryURL = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + APIKey;
-
-// fetch(queryURL);
